@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					B1F8435D1AADFA3400361909 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4SRQU4B859;
 					};
 					B1F843721AADFA3600361909 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -336,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Koordinates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Koordinates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +408,7 @@
 				B1F8437F1AADFA3600361909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1F843801AADFA3600361909 /* Build configuration list for PBXNativeTarget "KoordinatesTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +417,7 @@
 				B1F843821AADFA3600361909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
