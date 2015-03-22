@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func sendButton(sender: AnyObject) {
+        println("Sending...")
+        Alamofire.request(.GET, "http://koordinates.192.168.1.101.xip.io/api/user/1/waypoints").responseJSON { (_, _, JSON, _) in
+            println(JSON)
+        }
+    }
 }
 
