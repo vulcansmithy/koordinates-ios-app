@@ -22,8 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendButton(sender: AnyObject) {
-        println("Sending...")
-        Alamofire.request(.GET, "http://koordinates.192.168.1.101.xip.io/api/user/1/waypoints").responseJSON { (_, _, JSON, _) in
+        Alamofire.request(.GET, "https://koordinates.192.168.1.101.xip.io/api/user/1/waypoints").responseJSON { (_, _, JSON, _) in
             println(JSON)
         }
     }
